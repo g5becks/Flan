@@ -1,0 +1,34 @@
+# Build outputs
+bin/
+obj/
+Debug/
+Release/
+nupkg/
+
+# IDE
+.idea/
+.vs/
+*.suo
+*.user
+.ionide/
+
+# Fable/F#
+.fake
+.fable/
+
+# Rider
+*.sln.DotSettings.user
+
+# Visual Studio
+*.userprefs
+
+# NuGet
+*.nupkg
+project.lock.json
+
+# macOS
+.DS_Store
+
+# Test results
+TestResults/
+*.trx
