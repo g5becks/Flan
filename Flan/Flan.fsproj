@@ -14,9 +14,16 @@
         <Version>0.1.0</Version>
         <Authors>TakinProfit</Authors>
         <Description>A Bun-first package manager for Fable - syncs npm dependencies from NuGet packages</Description>
+        <PackageProjectUrl>https://github.com/g5becks/Flan</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/g5becks/Flan</RepositoryUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageTags>fable;fsharp;bun;npm;nuget</PackageTags>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
+    
+    <ItemGroup>
+        <None Include="../README.md" Pack="true" PackagePath="/" />
+    </ItemGroup>
 
     <ItemGroup>
         <Compile Include="Bun.fs"/>
