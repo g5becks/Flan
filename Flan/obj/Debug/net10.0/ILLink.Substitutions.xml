@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linker>
+  <assembly fullname="Flan">
+    <resource name="FSharpSignatureData.Flan" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedData.Flan" action="remove"></resource>
+    <resource name="FSharpSignatureDataB.Flan" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedDataB.Flan" action="remove"></resource>
+    <resource name="FSharpOptimizationData.Flan" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedData.Flan" action="remove"></resource>
+    <resource name="FSharpOptimizationDataB.Flan" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedDataB.Flan" action="remove"></resource>
+    <resource name="FSharpOptimizationInfo.Flan" action="remove"></resource>
+    <resource name="FSharpSignatureInfo.Flan" action="remove"></resource>
+  </assembly>
+</linker>

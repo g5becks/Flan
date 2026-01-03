@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Flan.Tests/Flan.Tests.fsproj" />
+  <Project Path="Flan/Flan.fsproj" />
+</Solution>

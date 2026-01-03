@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net10.0</TargetFramework>
+        
+        <!-- Tool packaging -->
+        <PackAsTool>true</PackAsTool>
+        <ToolCommandName>flan</ToolCommandName>
+        <PackageOutputPath>./nupkg</PackageOutputPath>
+        
+        <!-- NuGet metadata -->
+        <PackageId>Flan</PackageId>
+        <Version>0.1.0</Version>
+        <Authors>TakinProfit</Authors>
+        <Description>A Bun-first package manager for Fable - syncs npm dependencies from NuGet packages</Description>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageTags>fable;fsharp;bun;npm;nuget</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Bun.fs"/>
+        <Compile Include="ProjectAnalyzer.fs"/>
+        <Compile Include="NpmDeps.fs"/>
+        <Compile Include="PackageJson.fs"/>
+        <Compile Include="Program.fs"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Argu" Version="6.2.5" />
+        <PackageReference Include="Fli" Version="1.111.10" />
+        <PackageReference Include="FSharp.SystemTextJson" Version="1.3.13" />
+    </ItemGroup>
+
+</Project>

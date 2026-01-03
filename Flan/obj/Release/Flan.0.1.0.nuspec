@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Flan</id>
+    <version>0.1.0</version>
+    <authors>TakinProfit</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <description>A Bun-first package manager for Fable - syncs npm dependencies from NuGet packages</description>
+    <tags>fable fsharp bun npm nuget</tags>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+    <repository type="git" />
+  </metadata>
+  <files>
+    <file src="/Users/takinprofit/Dev/Flan/Flan/obj/Release/net10.0/DotnetToolSettings.xml" target="tools/net10.0/any/DotnetToolSettings.xml" />
+    <file src="/Users/takinprofit/Dev/Flan/Flan/bin/Release/net10.0/publish/Argu.dll" target="tools/net10.0/any/Argu.dll" />
+    <file src="/Users/takinprofit/Dev/Flan/Flan/bin/Release/net10.0/publish/Flan.deps.json" target="tools/net10.0/any/Flan.deps.json" />
+    <file src="/Users/takinprofit/Dev/Flan/Flan/bin/Release/net10.0/publish/Flan.dll" target="tools/net10.0/any/Flan.dll" />
+    <file src="/Users/takinprofit/Dev/Flan/Flan/bin/Release/net10.0/publish/Flan.pdb" target="tools/net10.0/any/Flan.pdb" />
+    <file src="/Users/takinprofit/Dev/Flan/Flan/bin/Release/net10.0/publish/Flan.runtimeconfig.json" target="tools/net10.0/any/Flan.runtimeconfig.json" />
+    <file src="/Users/takinprofit/Dev/Flan/Flan/bin/Release/net10.0/publish/Fli.dll" target="tools/net10.0/any/Fli.dll" />
+    <file src="/Users/takinprofit/Dev/Flan/Flan/bin/Release/net10.0/publish/FSharp.Core.dll" target="tools/net10.0/any/FSharp.Core.dll" />
+    <file src="/Users/takinprofit/Dev/Flan/Flan/bin/Release/net10.0/publish/FSharp.SystemTextJson.dll" target="tools/net10.0/any/FSharp.SystemTextJson.dll" />
+    <file src="/Users/takinprofit/Dev/Flan/Flan/bin/Release/net10.0/publish/System.Configuration.ConfigurationManager.dll" target="tools/net10.0/any/System.Configuration.ConfigurationManager.dll" />
+    <file src="/Users/takinprofit/Dev/Flan/Flan/bin/Release/net10.0/publish/System.Security.Cryptography.ProtectedData.dll" target="tools/net10.0/any/System.Security.Cryptography.ProtectedData.dll" />
+    <file src="/Users/takinprofit/Dev/Flan/Flan/bin/Release/net10.0/publish/cs/FSharp.Core.resources.dll" target="tools/net10.0/any/cs/FSharp.Core.resources.dll" />
+    <file src="/Users/takinprofit/Dev/Flan/Flan/bin/Release/net10.0/publish/de/FSharp.Core.resources.dll" target="tools/net10.0/any/de/FSharp.Core.resources.dll" />
+    <file src="/Users/takinprofit/Dev/Flan/Flan/bin/Release/net10.0/publish/es/FSharp.Core.resources.dll" target="tools/net10.0/any/es/FSharp.Core.resources.dll" />
+    <file src="/Users/takinprofit/Dev/Flan/Flan/bin/Release/net10.0/publish/fr/FSharp.Core.resources.dll" target="tools/net10.0/any/fr/FSharp.Core.resources.dll" />
+    <file src="/Users/takinprofit/Dev/Flan/Flan/bin/Release/net10.0/publish/it/FSharp.Core.resources.dll" target="tools/net10.0/any/it/FSharp.Core.resources.dll" />
+    <file src="/Users/takinprofit/Dev/Flan/Flan/bin/Release/net10.0/publish/ja/FSharp.Core.resources.dll" target="tools/net10.0/any/ja/FSharp.Core.resources.dll" />
+    <file src="/Users/takinprofit/Dev/Flan/Flan/bin/Release/net10.0/publish/ko/FSharp.Core.resources.dll" target="tools/net10.0/any/ko/FSharp.Core.resources.dll" />
+    <file src="/Users/takinprofit/Dev/Flan/Flan/bin/Release/net10.0/publish/pl/FSharp.Core.resources.dll" target="tools/net10.0/any/pl/FSharp.Core.resources.dll" />
+    <file src="/Users/takinprofit/Dev/Flan/Flan/bin/Release/net10.0/publish/pt-BR/FSharp.Core.resources.dll" target="tools/net10.0/any/pt-BR/FSharp.Core.resources.dll" />
+    <file src="/Users/takinprofit/Dev/Flan/Flan/bin/Release/net10.0/publish/ru/FSharp.Core.resources.dll" target="tools/net10.0/any/ru/FSharp.Core.resources.dll" />
+    <file src="/Users/takinprofit/Dev/Flan/Flan/bin/Release/net10.0/publish/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" target="tools/net10.0/any/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" />
+    <file src="/Users/takinprofit/Dev/Flan/Flan/bin/Release/net10.0/publish/tr/FSharp.Core.resources.dll" target="tools/net10.0/any/tr/FSharp.Core.resources.dll" />
+    <file src="/Users/takinprofit/Dev/Flan/Flan/bin/Release/net10.0/publish/zh-Hans/FSharp.Core.resources.dll" target="tools/net10.0/any/zh-Hans/FSharp.Core.resources.dll" />
+    <file src="/Users/takinprofit/Dev/Flan/Flan/bin/Release/net10.0/publish/zh-Hant/FSharp.Core.resources.dll" target="tools/net10.0/any/zh-Hant/FSharp.Core.resources.dll" />
+  </files>
+</package>
